@@ -1,0 +1,10 @@
+lovelace:
+  mode: yaml
+
+camera:
+  - platform: mjpeg
+    name: MotionCam1
+    mjpeg_url: http://motioncamname.domainname:8081/
+  - platform: mjpeg
+    name: MotionCam2
+    mjpeg_url: http://motioncamname2.domainname:8081/
