@@ -1,0 +1,7 @@
+###Lovelace UI###
+views:
+- title: CCTV
+    icon: mdi:cctv
+    cards:
+      - type: picture-entity
+        entity: camera.MotionCam1
